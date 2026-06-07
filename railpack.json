@@ -1,3 +1,19 @@
 {
-  "builder": "nixpacks"
+  "packages": {
+    "php": "8.3"
+  },
+  "buildAptPackages": [
+    "bison",
+    "re2c",
+    "libcurl4-openssl-dev",
+    "libicu-dev",
+    "libpq-dev",
+    "libgd-dev",
+    "libxml2-dev",
+    "libssl-dev",
+    "libsqlite3-dev",
+    "libonig-dev",
+    "libzip-dev",
+    "pkg-config"
+  ]
 }
